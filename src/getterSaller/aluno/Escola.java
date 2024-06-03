@@ -3,11 +3,9 @@ package getterSaller.aluno;
 public class Escola {
 	public static void main(String[] args) {
 		Aluno felipe = new Aluno();
-		felipe.nome="Felipe";
-		felipe.idade = 8;
+		felipe.setNome("Phillipe"); // aqui ele esta sentando os nomes na classe aluno.
+		felipe.setIdade(8);
 		
-		System.out.println("O aluno " + felipe.nome + " tem " + felipe.idade + " anos ");
-		//RESULTADO NO CONSOLE
-		//O aluno Felipe tem 8 anos 		
+		System.out.println("O aluno " + felipe.getNome() + " tem " + felipe.getIdade() + " anos ");	// aqui esta pegando os valores da classe.
 	}
 }
